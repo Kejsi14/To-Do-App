@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+   <script src="..//node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="ushtrimjs.html"></script>
+    <title>To Do App</title>
+</head>
+<body>
+    
+    <body>
+        <div class="container mt-4">
+            <div class="form-group">
+                <label for="todo-value">Todo</label>
+                <div class="input-group">
+                    <input placeholder="Write here..." type="text" id="todo-value" class="form-control">
+                    <button class="btn btn-primary" id="add-btn">Add</button>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div class="d-flex justify-content-between">
+                    <h3>Todo</h3>
+                    <div class="btn-group">
+                        <buttton class="btn btn-outline-warning" id="in_progress">In Progress</buttton>
+                        <buttton class="btn btn-outline-success" id="done">Done </buttton>
+                        <buttton class="btn btn-outline-primary" id="all">All</buttton>
+                    </div>
+                </div>
+    
+                <div class="mt-4">
+                    <ul class="list-group" id="list">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+   
+    <script src="ToDoApp.js">
+    
+       
+    </script>
+
+</body>
+</html>
+
